@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.padding-site {
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    padding-top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    background-image: url(../img/375532_BbIyy5Wigj_uecmjpg.jpg);
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style: none;
+    float: left;
+}
+
+.menu-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 1px solid white;
+}
+
+.menu-link:active {
+    color: #000000;
+    border-bottom: none;
+}
+
+.header-text {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.trending {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 22px;
+}
+
+.header-h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 62px;
+    text-transform: uppercase;
+}
+
+.header-content {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 458px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.button {
+    margin-bottom: 20px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    width: 212px;
+    height: 45px;
+}
+
+.button:hover {
+    box-shadow: 1px 3px 8px 2px rgba(38, 38, 38, 0.38);
+}
+
+.button:active {
+    box-shadow: none;
+}
