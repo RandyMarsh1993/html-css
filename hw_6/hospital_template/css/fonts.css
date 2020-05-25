@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Nexa";
+    src: url("../fonts/NexaBold.otf");
+}
+
+@font-face {
+    font-family: "fontello";
+    src: url("../fonts/fontello/font/fontello.ttf");
+}
+
+@font-face {
+    font-family: "montserrat-medium";
+    src: url("../fonts/montserrat/montserrat-medium.ttf");
+}
+
+@font-face {
+    font-family: "montserrat-bold";
+    src: url("../fonts/montserrat/montserrat-bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.ttf");
+}
