@@ -1,0 +1,226 @@
+.contacts {
+    background-color: @darkColor;
+}
+
+.contacts-h2 {
+    margin: 0 0 25px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contacts-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.name-input,
+.email-input {
+    display: block;
+    width: 490px;
+    height: 35px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    &::-webkit-input-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &::-moz-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:-moz-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:-ms-input-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:focus::-webkit-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus::-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus:-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus:-ms-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+}
+
+.text-input {
+    font-family: Arial, sans-serif;
+    display: block;
+    resize: none;
+    width: 490px;
+    height: 165px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 5px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    &::-webkit-input-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &::-moz-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:-moz-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:-ms-input-placeholder {
+        color: #445162;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    &:focus::-webkit-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus::-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus:-moz-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    &:focus:-ms-input-placeholder {
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+}
+
+.submit-button {
+    width: 140px;
+    min-height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        color: @lightColor;
+        background-color: @darkColor;
+        transform: scale(1.1);
+    }
+    &:active {
+        background-color: @lightColor;
+        color: @darkColor;
+        transform: scale(1.05);
+    }
+}
+
+.address-link {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 0 20px 31px;
+    transition: transform 0.2s linear;
+}
+
+.address-link:hover {
+    transform: scale(1.05);
+}
+
+.address-link:active {
+    color: #cecece;
+    transform: scale(1.02);
+}
+
+.skype-link {
+    background: url("../img/skype_icon.png") no-repeat;
+}
+
+.icq-link {
+    background: url("../img/icq_icon.png") no-repeat;
+}
+
+.email-link {
+    background: url("../img/email_icon.png") no-repeat;
+}
+
+.phone-link {
+    background: url("../img/phone_icon.png") no-repeat;
+}
+
+.social-link-item {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: SocialIco;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+        color: #ccc;
+    }
+    &:active {
+        color: #acacac;
+    }
+}
