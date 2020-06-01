@@ -1,8 +1,8 @@
 burger.onclick =  function activateBurger() {
-	let burger = document.getElementById("burger");
-	let menu = document.getElementById("header-nav");
+	let burgerIcon = document.getElementById("burger");
+	let menu = document.getElementById("headerNav");
 
-	burger.classList.toggle("burger_active");
+	burgerIcon.classList.toggle("burger_active");
 	menu.classList.toggle("burger_active");
 
 	/* первый вариант
